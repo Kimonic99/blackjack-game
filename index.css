@@ -1,9 +1,12 @@
 body {
+    background-image: url("joker.jpg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: darkgreen;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -12,6 +15,10 @@ h1 {
 
 #message-el {
     font-style: italic;
+}
+
+#player-el{
+    color: white;
 }
 
 button {
